@@ -18,7 +18,7 @@ public class E2EMaxOccurrences
     {
         _configuration = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("C:\\Users\\Igalsh\\source\\repos\\WordSortApp\\appsettings.json")
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .Build();
 
         ThreeMaxDuplicates = _configuration.GetSection("ThreeMaxDuplicates").Value;

@@ -28,7 +28,7 @@ public class E2EFlowBenchmark
     {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("C:\\Users\\Igalsh\\source\\repos\\WordSortApp\\appsettings.json")
+            .AddJsonFile("appsettings.json")
             .Build();
         filePathF10MB = configuration.GetSection("FileInputPath10MB").Value;
         filePathF100K = configuration.GetSection("FileInputPath100K").Value;

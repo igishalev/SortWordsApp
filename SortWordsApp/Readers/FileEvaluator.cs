@@ -11,7 +11,7 @@ public class FileEvaluator
     {
         var configuration = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("C:\\Users\\Igalsh\\source\\repos\\WordSortApp\\appsettings.json")
+            .AddJsonFile("appsettings.json")
             .Build();
 
         var smallFileThreshold = configuration.GetSection("FileSizeThresholds:SmallFileThreshold").Value;

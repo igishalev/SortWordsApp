@@ -5,12 +5,7 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortWordsApp", "SortWordsApp\SortWordsApp.csproj", "{0F1FDEF0-31FD-446C-95EF-68F732640412}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F024BF8E-B24C-4F26-8105-D0CFA8178484}"
-	ProjectSection(SolutionItems) = preProject
-		appsettings.json = appsettings.json
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortWordsTests", "SortWordsTests\SortWordsTests.csproj", "{C023DDB5-D6C1-4215-8B40-70492976CAF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortWordsTests", "SortWordsTests\SortWordsTests.csproj", "{C023DDB5-D6C1-4215-8B40-70492976CAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,7 +18,7 @@ public class E2EFlow
     {
         _configuration = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
-            .AddJsonFile("C:\\Users\\Igalsh\\source\\repos\\WordSortApp\\appsettings.json")
+            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
             .Build();
 
         filePathF10MB = _configuration.GetSection("FileInputPath10MB").Value;
