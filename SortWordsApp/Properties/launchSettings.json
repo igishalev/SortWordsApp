@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SortWordsApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Igalsh\\source\\repos\\WordSortApp\\WordSortApp\\Input\\F1.txt"
+    }
+  }
+}
